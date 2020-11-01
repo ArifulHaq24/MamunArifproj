@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8893" started-at="2020-10-30T02:16:21Z" finished-at="2020-10-30T02:16:29Z">
+  <suite name="Default suite" duration-ms="7810" started-at="2020-11-01T01:02:45Z" finished-at="2020-11-01T01:02:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8893" started-at="2020-10-30T02:16:21Z" finished-at="2020-10-30T02:16:29Z">
+    <test name="Default test" duration-ms="7810" started-at="2020-11-01T01:02:45Z" finished-at="2020-11-01T01:02:53Z">
       <class name="E2E.Selen2Practice.LoginFeature">
-        <test-method status="PASS" signature="loginPage()[pri:0, instance:E2E.Selen2Practice.LoginFeature@cc285f4]" name="loginPage" is-config="true" duration-ms="6312" started-at="2020-10-30T02:16:21Z" finished-at="2020-10-30T02:16:27Z">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:E2E.Selen2Practice.LoginFeature@cc285f4]" name="loginPage" is-config="true" duration-ms="5426" started-at="2020-11-01T01:02:45Z" finished-at="2020-11-01T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:E2E.Selen2Practice.LoginFeature@cc285f4]" name="negativeLogin" duration-ms="1834" started-at="2020-10-30T02:16:27Z" finished-at="2020-10-30T02:16:29Z">
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:E2E.Selen2Practice.LoginFeature@cc285f4]" name="negativeLogin" duration-ms="988" started-at="2020-11-01T01:02:51Z" finished-at="2020-11-01T01:02:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2E.Selen2Practice.LoginFeature@cc285f4]" name="tearDown" is-config="true" duration-ms="694" started-at="2020-10-30T02:16:29Z" finished-at="2020-10-30T02:16:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2E.Selen2Practice.LoginFeature@cc285f4]" name="tearDown" is-config="true" duration-ms="1360" started-at="2020-11-01T01:02:52Z" finished-at="2020-11-01T01:02:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

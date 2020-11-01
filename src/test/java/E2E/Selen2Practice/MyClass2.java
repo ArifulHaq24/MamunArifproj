@@ -10,10 +10,10 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MyClass2 {
-
+	static String driverPath=System.getProperty("user.dir");
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\haqar\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", driverPath +"\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		//driver.get("http://automationpractice.com/index.php");
 		driver.get("http://automationpractice.com/index.php?id_category=5&controller=category");

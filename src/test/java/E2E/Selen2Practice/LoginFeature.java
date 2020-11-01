@@ -22,12 +22,13 @@ import org.testng.annotations.Test;
 public class LoginFeature {
 	WebDriver driver;
 	Properties prop;
+	String driverPath=System.getProperty("user.dir");
 	
 	public LoginFeature(){
 	//Properties prop= new Properties();
 	try {
 		prop = new Properties();
-		FileInputStream fis= new FileInputStream(System.getProperty("C:\\Users\\haqar\\workspace\\Selen2Practice\\src\\test\\java\\E2E\\Selen2Practice\\data.properties"));
+		FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\E2E\\Selen2Practice\\data.properties");
 		prop.load(fis);
 	} catch (FileNotFoundException e) {
 		
@@ -41,7 +42,7 @@ public class LoginFeature {
 	@BeforeMethod
 	public void loginPage() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\haqar\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+				(System.getProperty("user.dir")+ "//src//main//resources//driver//chromedriver.exe"));
 		driver = new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
 	}
