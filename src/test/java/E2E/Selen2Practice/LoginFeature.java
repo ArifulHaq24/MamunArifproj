@@ -48,7 +48,7 @@ public class LoginFeature {
 	}
 	
 
-	/*@Test
+	@Test
 	public void present() {
 
 		// driver.findElement(By.cssSelector("#emal")).isDisplayed();
@@ -93,7 +93,7 @@ public class LoginFeature {
 			Assert.assertTrue(true, title);
 			Assert.assertEquals(title, "My account - My Store");
 		}
-		*/
+		
 		@Test
 		public void negativeLogin(){
 			driver.findElement(By.cssSelector("#email")).sendKeys(prop.getProperty("userEmail"));
